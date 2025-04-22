@@ -1,3 +1,3 @@
-from .animator import run_vessel_animation
+from .animator import animate_vessels
 
-__all__ = ["run_vessel_animation"]
+__all__ = ["animate_vessels"]

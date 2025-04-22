@@ -1,8 +1,8 @@
-from utils import load_data, prepare_time_bins, create_color_map
-from animator import animate_vessels
+from vesselviz.utils import load_data, prepare_time_bins, create_color_map
+from vesselviz.animator import animate_vessels
 
 def main():
-    csv_path = "Mergeddata/ais_201901.csv"
+    csv_path = "" # Path to your CSV file
     mmsi_col = "mmsi"
     time_col = "datetime"
     interval = "5min"
