@@ -24,7 +24,6 @@ pip install vesselviz
 
 Or if you're working from source:
 
-```bash
 git clone https://github.com/yourusername/vesselviz.git
 cd vesselviz
 pip install .
